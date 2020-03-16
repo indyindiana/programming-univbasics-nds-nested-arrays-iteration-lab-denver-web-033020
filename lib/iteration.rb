@@ -1,5 +1,13 @@
 def join_ingredients(src)
   
+  row_index = 0
+  while row_index < src.count do
+    element_index = 0
+    
+    end
+    row_index += 1
+ end #=> nil
+
   return ('I love ' +src[0][0] + " and "+ src[0][1] + " on my pizza")
 
 
