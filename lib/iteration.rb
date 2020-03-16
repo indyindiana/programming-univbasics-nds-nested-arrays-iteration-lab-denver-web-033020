@@ -8,7 +8,7 @@ def join_ingredients(src)
     row_index += 1
  end #=> nil
 
-  return ('I love ' +src[0][0] + " and "+ src[0][1] + " on my pizza")
+  
 
 
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
