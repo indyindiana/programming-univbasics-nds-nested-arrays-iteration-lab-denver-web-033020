@@ -1,5 +1,15 @@
 def join_ingredients(src)
-  
+  row_index = 0
+while row_index < spice_rack.count do
+  element_index = 0
+  while element_index < spice_rack[row_index].count do
+    puts spice_rack[row_index][element_index]
+    element_index += 1
+  end
+  row_index += 1
+end #=> nil
+
+
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
   # Build a new Array that contains strings where each pair of foods is
